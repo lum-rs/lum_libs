@@ -4,6 +4,7 @@ pub use downcast_rs;
 pub use fern;
 pub use humantime;
 pub use log;
+pub use rustls;
 pub use serde;
 pub use serde_env;
 pub use serde_json;
