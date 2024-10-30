@@ -1,0 +1,38 @@
+[package]
+name = "lum_libs"
+version = "0.1.0"
+authors = ["Torben Schweren"]
+edition = "2021"
+rust-version = "1.82.0"
+description = "Central re-export of all external crates to be used in the lum framework"
+readme = "README.md"
+repository = "https://github.com/lum-rs/lum_libs"
+license = "MIT"
+keywords = ["framework"]
+exclude = [".devcontainer", ".github", ".vscode"]
+
+[profile.release]
+debug = false
+opt-level = 3
+lto = true
+
+[profile.dev]
+debug = true
+opt-level = 0
+lto = false
+
+[dependencies]
+async-trait = "0.1.83"
+dirs = "5.0.1"
+downcast-rs = { version = "1.2.0", features = ["std"] }
+fern = { version = "0.7.0", features = ["colored", "date-based"] }
+humantime = "2.1.0"
+log = { version = "0.4.20", features = ["serde", "std"] }
+rustls = "0.23.16"
+serde = { version = "1.0.214", features = ["derive"] }
+serde-env = "0.2.0"
+serde_json = "1.0.132"
+serenity = { version = "0.12.0", features = ["full"] }
+thiserror = "1.0.65"
+tokio = { version = "1.41.0", features = ["full"] }
+uuid = { version = "1.11.0", features = ["v4", "fast-rng", "serde", "macro-diagnostics"] }
