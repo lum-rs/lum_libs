@@ -1,8 +1,8 @@
 # lum_libs
 
-This crate is a central collection of all external crates used in the lum framework.
-We're doing this to have the same version of dependencies across the framework, just like in a cargo workspace.
-The crate consists of only re-exports.
+lum framework's re-export library
+
+This crate serves as a central collection of all external crates used in the lum framework. It ensures that the same versions of dependencies are used across the framework, similar to a cargo workspace. As a result, this crate only contains re-exports.
 
 ## Collaborating
 
