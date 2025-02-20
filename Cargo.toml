@@ -23,16 +23,16 @@ lto = false
 
 [dependencies]
 async-trait = "0.1.83"
-dirs = "5.0.1"
-downcast-rs = { version = "1.2.0", features = ["std"] }
+dirs = "6.0.0"
+downcast-rs = { version = "2.0.1", features = ["std"] }
 fern = { version = "0.7.0", features = ["colored", "date-based"] }
 humantime = "2.1.0"
 log = { version = "0.4.20", features = ["serde", "std"] }
-rustls = "0.23.19"
+rustls = "0.23.23"
 serde = { version = "1.0.215", features = ["derive"] }
 serde-env = "0.2.0"
 serde_json = "1.0.133"
 serenity = { version = "0.12.4", features = ["full"] }
-thiserror = "2.0.3"
+thiserror = "2.0.11"
 tokio = { version = "1.41.1", features = ["full"] }
 uuid = { version = "1.11.0", features = ["v4", "fast-rng", "serde", "macro-diagnostics"] }
