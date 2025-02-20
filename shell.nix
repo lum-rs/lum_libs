@@ -23,7 +23,7 @@ pkgs.mkShell {
 
     rustup default stable
     rustup update
-    cargo build
+    cargo fetch
 
     echo
     echo
