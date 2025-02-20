@@ -3,7 +3,6 @@
 }:
 
 pkgs.mkShell {
-
   buildInputs = [
     pkgs.rustup
   ];
@@ -17,14 +16,14 @@ pkgs.mkShell {
     DATA_DIR="/tmp/rust"
     export RUSTUP_HOME="$DATA_DIR/rustup"
     export CARGO_HOME="$DATA_DIR/cargo"
-    export PATH=$CARGO_niHOME/bin:$PATH
+    export PATH=$CARGO_HOME/bin:$PATH
     mkdir -p "$CARGO_HOME"
     mkdir -p "$RUSTUP_HOME"
     mkdir -p "$DATA_DIR/shell"
 
     rustup default stable
     rustup update
-    cargo fetch
+    cargo build
 
     echo
     echo
@@ -35,5 +34,4 @@ pkgs.mkShell {
     echo "$(rustup --version)"
     echo "$(cargo --version)"
   '';
-
 }
