@@ -1,6 +1,6 @@
 [package]
 name = "lum_libs"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Torben Schweren"]
 edition = "2024"
 rust-version = "1.85.0"
@@ -22,17 +22,17 @@ opt-level = 0
 lto = false
 
 [dependencies]
-async-trait = "0.1.83"
+async-trait = "0.1.87"
 dirs = "6.0.0"
 downcast-rs = { version = "2.0.1", features = ["std"] }
 fern = { version = "0.7.0", features = ["colored", "date-based"] }
 humantime = "2.1.0"
-log = { version = "0.4.20", features = ["serde", "std"] }
+log = { version = "0.4.26", features = ["serde", "std"] }
 rustls = "0.23.23"
 serde = { version = "1.0.215", features = ["derive"] }
 serde-env = "0.2.0"
-serde_json = "1.0.133"
+serde_json = "1.0.140"
 serenity = { version = "0.12.4", features = ["full"] }
-thiserror = "2.0.11"
+thiserror = "2.0.12"
 tokio = { version = "1.41.1", features = ["full"] }
-uuid = { version = "1.11.0", features = ["v4", "fast-rng", "serde", "macro-diagnostics"] }
+uuid = { version = "1.15.1", features = ["v4", "fast-rng", "serde", "macro-diagnostics"] }
