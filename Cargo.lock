@@ -1176,7 +1176,6 @@ dependencies = [
  "serde-env",
  "serde_json",
  "serenity",
- "thiserror 2.0.12",
  "tokio",
  "uuid",
 ]

@@ -9,6 +9,5 @@ pub use serde;
 pub use serde_env;
 pub use serde_json;
 pub use serenity;
-pub use thiserror;
 pub use tokio;
 pub use uuid;
