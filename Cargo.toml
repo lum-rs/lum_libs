@@ -22,16 +22,16 @@ opt-level = 0
 lto = false
 
 [dependencies]
-async-trait = "0.1.88"
-dirs = "6.0.0"
-downcast-rs = { version = "2.0.1", features = ["std"] }
-fern = { version = "0.7.0", features = ["colored", "date-based"] }
-humantime = "2.2.0"
-log = { version = "0.4.27", features = ["serde", "std"] }
-rustls = "0.23.27"
-serde = { version = "1.0.219", features = ["derive"] }
-serde-env = "0.2.0"
-serde_json = "1.0.140"
-serenity = { version = "0.12.4", features = ["full"] }
-tokio = { version = "1.45.1", features = ["full"] }
-uuid = { version = "1.17.0", features = ["v4", "fast-rng", "serde", "macro-diagnostics"] }
+async-trait = { version = "0.1.88", optional = true }
+dirs = { version = "6.0.0", optional = true }
+downcast-rs = { version = "2.0.1", features = ["std"], optional = true }
+fern = { version = "0.7.0", features = ["colored", "date-based"], optional = true }
+humantime = { version = "2.2.0", optional = true }
+log = { version = "0.4.27", features = ["serde", "std"], optional = true }
+rustls = { version = "0.23.27", optional = true }
+serde = { version = "1.0.219", features = ["derive"], optional = true }
+serde-env = { version = "0.2.0", optional = true }
+serde_json = { version = "1.0.140", optional = true }
+serenity = { version = "0.12.4", features = ["full"], optional = true }
+tokio = { version = "1.45.1", features = ["full"], optional = true }
+uuid = { version = "1.17.0", features = ["v4", "fast-rng", "serde", "macro-diagnostics"], optional = true }
