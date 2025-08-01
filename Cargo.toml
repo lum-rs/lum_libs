@@ -31,7 +31,7 @@ log = { version = "0.4.27", features = ["serde", "std"], optional = true }
 rustls = { version = "0.23.29", optional = true }
 serde = { version = "1.0.219", features = ["derive"], optional = true }
 serde-env = { version = "0.2.0", optional = true }
-serde_json = { version = "1.0.141", optional = true }
+serde_json = { version = "1.0.142", optional = true }
 serenity = { version = "0.12.4", features = ["full"], optional = true }
 tokio = { version = "1.46.1", features = ["full"], optional = true }
 uuid = { version = "1.17.0", features = ["v4", "fast-rng", "serde", "macro-diagnostics"], optional = true }
