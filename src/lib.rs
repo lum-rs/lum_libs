@@ -1,6 +1,9 @@
 #[cfg(feature = "async-trait")]
 pub use async_trait;
 
+#[cfg(feature = "dashmap")]
+pub use dashmap;
+
 #[cfg(feature = "dirs")]
 pub use dirs;
 
