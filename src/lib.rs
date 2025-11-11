@@ -19,6 +19,9 @@ pub use humantime;
 #[cfg(feature = "log")]
 pub use log;
 
+#[cfg(feature = "parking_lot")]
+pub use parking_lot;
+
 #[cfg(feature = "rustls")]
 pub use rustls;
 
