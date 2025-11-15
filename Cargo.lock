@@ -1177,7 +1177,7 @@ dependencies = [
 
 [[package]]
 name = "lum_libs"
-version = "0.2.9"
+version = "0.2.10"
 dependencies = [
  "async-trait",
  "dashmap 6.1.0",
