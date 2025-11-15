@@ -10,14 +10,14 @@ pub use dirs;
 #[cfg(feature = "downcast-rs")]
 pub use downcast_rs;
 
-#[cfg(feature = "fern")]
-pub use fern;
-
 #[cfg(feature = "humantime")]
 pub use humantime;
 
 #[cfg(feature = "log")]
 pub use log;
+
+#[cfg(feature = "log4rs")]
+pub use log4rs;
 
 #[cfg(feature = "parking_lot")]
 pub use parking_lot;
