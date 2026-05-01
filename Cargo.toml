@@ -30,7 +30,7 @@ humantime = { version = "2.3.0", optional = true }
 log = { version = "0.4.29", features = ["serde", "std"], optional = true }
 log4rs = { version = "1.4.0", features = ["all_components", "background_rotation", "compound_policy", "config_parsing", "console_appender", "delete_roller", "file_appender", "fixed_window_roller", "gzip", "json_encoder", "onstartup_trigger", "pattern_encoder", "rolling_file_appender", "size_trigger", "threshold_filter", "time_trigger", "yaml_format"], optional = true }
 parking_lot = { version = "0.12.5", features = ["hardware-lock-elision", "send_guard"], optional = true }
-rustls = { version = "0.23.36", optional = true }
+rustls = { version = "0.23.40", optional = true }
 serde = { version = "1.0.228", features = ["derive"], optional = true }
 serde-env = { version = "0.2.0", optional = true }
 serde_json = { version = "1.0.148", optional = true }
