@@ -9,7 +9,7 @@ readme = "README.md"
 repository = "https://github.com/lum-rs/lum_libs"
 license = "MIT"
 keywords = ["framework"]
-exclude = [".devcontainer", ".github", ".vscode"]
+exclude = [".envrc", ".direnv", ".devcontainer", ".github", ".vscode", "flake.nix", "flake.lock"]
 
 [profile.release]
 debug = false
