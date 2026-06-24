@@ -1,4 +1,11 @@
-# lum_libs
+# ARCHIVED
+
+This crate is not needed anymore, as the project has moved to a monorepo.
+See https://github.com/lum-rs/lum
+
+---
+
+## lum_libs
 
 lum framework's re-export library
 
